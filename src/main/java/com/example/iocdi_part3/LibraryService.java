@@ -11,7 +11,7 @@ public class LibraryService {
     private List<Book> library = new ArrayList<>();
 
 
-    public void addBook(Book book){
+    public void AddBook(Book book){
         System.out.println(book);
         library.add(book);
     }
